@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffaf5">
+  <meta name="description" content="Fresh Syrian falafel, fatayer and shawarma at Hassan in Sliema, Malta.">
+  <title>Hassan | Syrian Food, Falafel &amp; Fatayer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Always fresh <span>✳</span> Always tasty <span>✳</span> Syrian food in Sliema</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Hassan home">
+      <span class="brand-name">Hassan</span>
+      <span class="brand-caption">FALAFEL &amp; FATAYER</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#menu">Our menu</a><a href="#story">Our story</a><a href="#gallery">Gallery</a><a href="#visit">Find us</a>
+      <a class="nav-order" href="tel:+35699203330">Call to order <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> SYRIAN FOOD · EST. 2013</p>
+        <h1>A little piece<br>of <em>Syria,</em><br>made fresh.</h1>
+        <p class="hero-description">From golden, oven-fresh fatayer to falafel made with care — discover the flavours we love sharing.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>↓</span></a><a class="button button-text" href="#visit">Come visit us <span>↗</span></a></div>
+        <div class="hero-notes"><span><b>✳</b> Freshly prepared</span><span><b>☾</b> Halal food</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://drive.google.com/thumbnail?id=1i4x9PFM6oEs9tu1aTMr65eqaairMhKjO&amp;sz=w1600" alt="Freshly baked homemade fatayer">
+        <div class="hero-badge"><span>FRESH SINCE</span><strong>2013</strong><span>IN SLIEMA</span></div>
+        <span class="hero-image-caption">Baked fresh every day</span>
+      </div>
+    </section>
+
+    <section class="specialties" aria-label="Our specialties">
+      <div><span class="specialty-icon">01</span><p><strong>Fresh falafel</strong><small>Golden, crispy, made fresh</small></p></div>
+      <div><span class="specialty-icon">02</span><p><strong>Homemade fatayer</strong><small>Baked every day with love</small></p></div>
+      <div><span class="specialty-icon">03</span><p><strong>Syrian shawarma</strong><small>Full of flavour, always</small></p></div>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-topline"><p class="eyebrow"><span></span> GOOD FOOD, YOUR WAY</p><span class="section-number">01 / MENU</span></div>
+      <div class="section-heading">
+        <h2>Made fresh.<br><em>Made to share.</em></h2>
+        <p>Find an old favourite or try something new. Everything is prepared with fresh ingredients and a little Syrian hospitality.</p>
+      </div>
+      <div class="menu-toolbar">
+        <div class="menu-tabs" role="group" aria-label="Filter menu">
+          <button type="button" class="menu-tab active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="menu-tab" data-filter="dishes" aria-pressed="false">Dishes</button>
+          <button type="button" class="menu-tab" data-filter="wraps" aria-pressed="false">Wraps</button>
+          <button type="button" class="menu-tab" data-filter="falafel" aria-pressed="false">Falafel &amp; sides</button>
+          <button type="button" class="menu-tab" data-filter="fatayer" aria-pressed="false">Fatayer</button>
+          <button type="button" class="menu-tab" data-filter="drinks" aria-pressed="false">Drinks</button>
+        </div>
+        <label class="menu-search"><span aria-hidden="true">⌕</span><span class="sr-only">Search menu</span><input id="menu-search" type="search" placeholder="Search the menu"></label>
+      </div>
+      <p class="result-count" id="result-count" aria-live="polite"></p>
+      <div class="menu-grid" id="menu-grid"></div>
+      <p class="no-results" id="no-results" hidden>No dishes match that search. Try another name.</p>
+      <p class="menu-note">Vegan-friendly and lactose-free options available. Please ask us about ingredients and allergens.</p>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="story-image">
+        <img src="https://drive.google.com/thumbnail?id=1fAzCHeeFu8I-gLf2Gx-4CT1SQhG_EaTs&amp;sz=w1600" alt="The Hassan Syrian Food shopfront on Tower Road, Sliema">
+        <span class="image-label">14 TOWER ROAD · SLIEMA</span>
+      </div>
+      <div class="story-copy">
+        <div class="section-topline"><p class="eyebrow"><span></span> A TASTE OF HOME</p><span class="section-number">02 / OUR STORY</span></div>
+        <h2>Good food<br>brings us <em>together.</em></h2>
+        <p>At Hassan, we bring the flavours of Syrian cooking to Tower Road, Sliema. From falafel crisped just right to fatayer baked fresh each day, every bite is made to feel like coming home.</p>
+        <p>Come by for a quick bite, take something home, or stay a little longer. There’s always room at our table.</p>
+        <a class="underlined-link" href="#visit">Come say hello <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="gallery">
+      <div class="section-topline"><p class="eyebrow"><span></span> FRESH FROM OUR KITCHEN</p><span class="section-number">03 / A FEW FAVOURITES</span></div>
+      <div class="gallery-heading"><h2>Made with care.<br><em>Shared with joy.</em></h2><p>A little look at what’s cooking at Hassan.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-card"><img src="https://drive.google.com/thumbnail?id=1q7oV-TYLzRPXqNEZgqSBVeL_UhB9Zk-Q&amp;sz=w1600" alt="Golden homemade fatayer, fresh from the oven"><figcaption>Fresh homemade fatayer</figcaption></figure>
+        <figure class="gallery-card"><img src="https://drive.google.com/thumbnail?id=1khd7hxNGQC7xVn9K7p-InLX2UQJnA5cF&amp;sz=w1600" alt="A freshly made coffee at Hassan"><figcaption>Stay for a coffee</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="visit-inner">
+        <div class="visit-copy">
+          <div class="section-topline"><p class="eyebrow"><span></span> YOUR TABLE IS WAITING</p><span class="section-number">04 / FIND US</span></div>
+          <h2>See you<br>in <em>Sliema.</em></h2>
+          <p>Drop in for a freshly made bite. We’re right on Tower Road.</p>
+          <a class="button button-light" href="https://www.google.com/maps/search/?api=1&amp;query=Hassan+Syrian+Food+14+Tower+Road+Sliema+Malta" target="_blank" rel="noreferrer">Get directions <span>↗</span></a>
+        </div>
+        <div class="visit-details">
+          <div class="visit-detail"><span class="detail-icon">⌖</span><div><h3>Find our restaurant</h3><p>14, Tower Road<br>Sliema, Malta</p></div></div>
+          <div class="visit-detail"><span class="detail-icon">☎</span><div><h3>Call us</h3><p><a href="tel:+35699203330">9920 3330</a><br><a href="tel:+35621222114">2122 2114</a></p></div></div>
+          <div class="visit-detail"><span class="detail-icon">✳</span><div><h3>Fresh since</h3><p>Syrian food in Sliema<br>Est. 2013</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-name">Hassan</span><span class="brand-caption">FALAFEL &amp; FATAYER</span></a>
+    <p>Syrian food, made fresh in Sliema.</p>
+    <span>© <span id="year"></span> Hassan Syrian Food</span>
+  </footer>
+</body>
+</html>
